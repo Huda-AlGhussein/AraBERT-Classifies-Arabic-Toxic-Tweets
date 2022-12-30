@@ -6,4 +6,4 @@ Arabic dataset to categorise a tweet into one of the predefined categories (safe
 BERT model which is a stacked Bidirectional Transformer Encoder. 
 
 I extracted Arabic tweets from twitter tracking the hashtags #QatarWorldCup2022 and #Qatar2022. All tweets were labelled as ‘toxic’ or ‘safe’ depending on the context of each tweet, these tweets are saved in an excel file that is then
-called through the Google Collab in a dataframe.
+called through the Google Collab in a dataframe. After finetuning AraBERT, I created a FastAPI to create a place were users can insert a text or tweet and the label will show with the confidence level.
